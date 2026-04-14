@@ -49,3 +49,6 @@ Thumbs.db
 # Project specific
 files.zip
 files/
+
+
+.qwen/
