@@ -46,9 +46,22 @@ logs/
 Thumbs.db
 .DS_Store
 
+# Dev notes (local setup instructions)
+DEVELOPMENT.md
+
 # Project specific
 files.zip
 files/
 
+# Expo
+client/.expo/
+client/dist/
 
+# Vue build output
+admin/dist/
+
+# Env files
+**/*.env
+
+branding/
 .qwen/

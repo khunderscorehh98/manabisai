@@ -15,17 +15,17 @@ ManaBisai is a GPS-powered food discovery platform built for Brunei. It helps lo
 
 ---
 
-## 🧱 Tech Stack (MEVEN)
+## 🧱 Tech Stack (FEVEN)
 
 | Layer | Technology |
 |---|---|
 | Mobile Client | Expo (React Native) |
 | Admin Panel | Vue.js 2 + Vuetify |
 | Backend API | Node.js + Express.js |
-| Database | MySQL (primary) |
+| Database | Firestore (NoSQL document store) |
 | Auth | JWT (rotate on refresh) |
 
-> **MEVEN** = **M**ySQL · **E**xpress · **V**ue · **E**xpo · **N**ode
+> **FEVEN** = **F**irestore · **E**xpress · **V**ue · **E**xpo · **N**ode
 
 ---
 
@@ -36,7 +36,7 @@ manabisai/
 ├── client/          # Expo mobile app (iOS & Android)
 ├── admin/           # Vue.js 2 + Vuetify admin dashboard
 ├── api/             # Node.js + Express REST API
-├── db/              # MySQL schema, migrations, seeds
+├── db/              # Firestore seed scripts
 └── docs/            # Architecture diagrams, API reference
 ```
 
@@ -49,7 +49,7 @@ manabisai/
 | Expo Mobile App | ✅ MVP Ready |
 | Node.js API | ✅ Running (local) |
 | Vue Admin Panel | ✅ Running (local) |
-| MySQL Database | ✅ Local |
+| Firestore Database | ✅ Ready (Firebase) |
 | Firebase Deployment | 🔜 Planned |
 | Public Demo URL | 🔜 Coming Soon |
 
